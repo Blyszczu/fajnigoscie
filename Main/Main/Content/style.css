@@ -1,16 +1,41 @@
 ﻿#nag {
+ 
     width: 100%;
     background-color: #3A3F40;
     height:70px;
     margin: 0;
     margin-bottom: 20px;
+    display:flex;
 }
-.button{
-    text-align:center;
-    width:100px;
-    height:auto;
+.button > a{
+    text-decoration: none;
+    margin: 0;
+    color: #E8FEFF;
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+.button > a:hover {
+        text-decoration: none;
+        color: #E8FEFF;
+    }
+.button {
+    text-decoration: none;
+    margin: 20px 10px 20px 10px;
+    font-size: 20px;
+    color: #E8FEFF;
+    text-align: center;
+    width: 100px;
+    height: auto;
 }
 .button:hover {
+        color: #E8FEFF;
+        text-decoration: none;
         background-color: #747F7F;
-        cursor:pointer;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+#logo
+{
+    flex:4;
 }

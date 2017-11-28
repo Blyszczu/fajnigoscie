@@ -11,10 +11,11 @@
 </head>
 <body>
     <div id="nag">
-        <div id="logo"></div>
-        <div class="button">XD</div>
+       <div id="logo"></div>
+        <div class="button">Home</div>
+        <div class="button">Gallery</div>
+        <div class="button">@Html.ActionLink("Contact", "Contact", "Home", new { area = "" })</div>
     </div>
-   <div class="container">
      
         @RenderBody()
         <hr />
