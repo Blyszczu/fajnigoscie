@@ -11,9 +11,9 @@
 </head>
 <body>
     <div id="nag">
-       <div id="logo"></div>
-        <div class="button">Home</div>
-        <div class="button">Gallery</div>
+       <div id="logo"><img src="~/Content/logo/logo.png" alt="logo" id="logo"/></div>
+        <div class="button">@Html.ActionLink("Home", "Index", "Home", new { area = "" })</div>
+        <div class="button">@Html.ActionLink("Gallery", "About", "Home", new { area = "" })</div>
         <div class="buttonl">@Html.ActionLink("Contact", "Contact", "Home", new { area = "" })</div>
     </div>
      

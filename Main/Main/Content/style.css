@@ -1,4 +1,7 @@
-﻿#nag {
+﻿#body #nag{
+    margin:0;
+}
+#nag {
  
     width: 100%;
     background-color: #3A3F40;
@@ -72,5 +75,10 @@
     }
 #logo
 {
+    
+    padding:5px 0 5px 1%;
     flex:4;
+    height:60px;
+    width:auto;
+    
 }
