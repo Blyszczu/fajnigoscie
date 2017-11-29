@@ -19,6 +19,21 @@
         text-decoration: none;
         color: #E8FEFF;
     }
+.buttonl > a {
+    text-decoration: none;
+    margin: 0;
+    color: #E8FEFF;
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+
+ .buttonl > a:hover {
+        text-decoration: none;
+        color: #E8FEFF;
+    }
+
+
 .button {
     text-decoration: none;
     margin: 20px 10px 20px 10px;
@@ -29,6 +44,26 @@
     height: auto;
 }
 .button:hover {
+        color: #E8FEFF;
+        text-decoration: none;
+        background-color: #747F7F;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+
+.buttonl {
+    
+    text-decoration: none;
+    margin: 20px 10% 20px 10px;
+    font-size: 20px;
+    color: #E8FEFF;
+    text-align: center;
+    width: 100px;
+    height: auto;
+}
+
+.buttonl:hover {
         color: #E8FEFF;
         text-decoration: none;
         background-color: #747F7F;
